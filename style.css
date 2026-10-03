@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+ 
+section {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e8e8e8;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.project a {
+    margin-right: 15px;
+}
