@@ -51,3 +51,6 @@ li {
 .project a {
     margin-right: 15px;
 }
+.project + .project {
+    margin-top: 15px;
+}
